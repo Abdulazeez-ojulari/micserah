@@ -8,8 +8,6 @@ router.post('/signup', user.signup);
 
 router.post('/login', user.login);
 
-router.get('/confirmation/:email/:token', user.confirmEmail);
-
 router.get('/', auth, authAdmin, user.findAll)
 
 router.get('/profile', auth, user.findByUserId);
