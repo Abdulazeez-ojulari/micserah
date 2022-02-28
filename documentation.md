@@ -17,17 +17,17 @@
     "password": "string"
 }
 --------------------------------------
-- **GET** /api/user/profile   ...Create jobs... **Note: An header request x-auth-token must be passed**
+- **GET** /api/user/profile   ...Get user profile... **Note: An header request x-auth-token must be passed in your header**
 
 
 
 **Post**
-- **POST** /api/post ...Create a post on a feed...**Note: An header request x-auth-token must be passed**
+- **POST** /api/post ...Create a post on a feed...**Note: An header request x-auth-token must be passed in your header**
 {
     "feedId": "string",
     "message": "string"
 }
 ------------------------------
-- **GET** /api/post/{feedId}  ...Get post on a feed...**Note: An header request x-auth-token must be passed**
+- **GET** /api/post/{feedId}  ...Get post on a feed...**Note: An header request x-auth-token must be passed in your header**
 
 You can get x-auth-token from the token value retured after login.<br />
