@@ -1,0 +1,8 @@
+{
+    "name": "Micserah",
+    "mode": "development",
+    "db": {
+        "url": "mongodb://localhost:27017/micserah"
+    },
+    "corsOption": "http://localhost:3000/"
+}

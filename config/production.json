@@ -1,0 +1,8 @@
+{
+    "name": "Micserah",
+    "mode": "production",
+    "db": {
+        "url": ""
+    },
+    "corsOption": ""
+}

@@ -1,0 +1,6 @@
+{
+    "jwtPrivateKey": "micserah_secret",
+    "db": {
+    	"url": "micserah_db"
+    }
+}
